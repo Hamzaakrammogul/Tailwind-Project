@@ -7,7 +7,7 @@ const TestimonialsData = ({ image, name, description }) => {
     return (
 
         <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
-            <img src={image} alt="" className="w-16 -mt-14" />
+            <img src={image} alt="" className="w-16 -mt-10 md:-mt-14" />
             <h5 className="text-lg font-bold">{name}</h5>
             <p className="text-sm text-darkGrayishBlue">{description} </p>
         </div>
@@ -15,7 +15,7 @@ const TestimonialsData = ({ image, name, description }) => {
 }
 const Testimonials = () => {
     return (
-        <div>
+        <>
             <div className="max-w-6xl px-5 mx-auto mt-32 text-center">
                 <h2 className="text-4xl font-bold text-center">
                     What's Different about Manage
@@ -29,7 +29,12 @@ const Testimonials = () => {
                     />)}
                 </div>
             </div>
-        </div>
+            <div className=" flex justify-center my-16">
+                <button className="p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight">
+                    Get Started
+                </button>
+            </div>
+        </>
     );
 };
 

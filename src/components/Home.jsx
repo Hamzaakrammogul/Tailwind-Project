@@ -4,6 +4,8 @@ import illustration from '../../img/illustration-intro.svg';
 import Data from '../utils/Data';
 import ItemList from "./ItemList";
 import Testimonials from "./Testimonial";
+import CTA from "./CTA";
+import Footer from "./Footer";
  
 
 const Home = () => {
@@ -55,9 +57,8 @@ const Home = () => {
                 </div>
             </div>
             <Testimonials/>
-            
-           
-    
+            <CTA/>
+            <Footer/>
         </>
     );
 };
