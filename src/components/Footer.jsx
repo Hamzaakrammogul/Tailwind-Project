@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <div className="bg-veryDarkBlue">
             <div className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
-                <div className="flex felx-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
                     <div className=" mx-auto my-6 text-center text-white md:hidden">
                         Copyright &copy; 2023, All Rights Reserved
                     </div>
@@ -40,7 +40,8 @@ const Footer = () => {
                         <ul>
                             <li className="hover:text-brightRed">Careers</li>
                             <li className="hover:text-brightRed">Community</li>
-                            <li className="hover:text-brightRed">Privacy policy</li>                        </ul>
+                            <li className="hover:text-brightRed">Privacy policy</li>
+                        </ul>
                     </div>
                 </div>
 
