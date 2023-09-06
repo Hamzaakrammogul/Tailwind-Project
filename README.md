@@ -9,6 +9,3 @@ Currently, two official plugins are available:
 
 # Desktop View
 <img src="/desktop.png" alt="" />
-
-# Mobile View
-<img src="/mobile.png" alt="" />
